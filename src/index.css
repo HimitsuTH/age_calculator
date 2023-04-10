@@ -1,0 +1,16 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+:is(*, *::after, *::before) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Poppins",Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 94%);
+}

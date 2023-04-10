@@ -1,0 +1,12 @@
+main {
+  @include flex($align: flex-start, $direction: column);
+//   @include size(100%);
+  padding: 2em;
+  margin: 6em 2em;
+  border-radius: 2rem 2rem 10rem 2rem;
+  background-color: $White;
+
+  @media (min-width:$screen-sm) {
+    @include size(48em,100%);
+  }
+}

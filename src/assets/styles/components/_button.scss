@@ -1,0 +1,35 @@
+.btn-container {
+  @include flex;
+  position: relative;
+  width: 100%;
+  margin-top: 2em;
+ 
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: inherit;
+    background-color: $Light-grey;
+    height: 2px;
+  }
+
+  @media (min-width: $screen-sm) {
+    @include flex($justify: flex-end);
+    width: 42em;
+    
+  }
+}
+
+.btn {
+  @include size(90px);
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: $Purple;
+  outline: none;
+  border: none;
+  z-index: 0;
+  transition: 0.5s all;
+  &:hover {
+    background-color: $Off-black;
+  }
+}

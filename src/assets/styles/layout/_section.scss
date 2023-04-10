@@ -1,0 +1,4 @@
+section {
+  @include flex($align:flex-start,$direction:column);
+  gap: 1rem;
+}
