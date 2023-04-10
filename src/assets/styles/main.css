@@ -98,11 +98,16 @@ label p {
 }
 
 .output {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: 800;
 }
 .output span {
   color: hsl(259, 100%, 65%);
+}
+@media (min-width: 36em) {
+  .output {
+    font-size: 5em;
+  }
 }
 
 main {

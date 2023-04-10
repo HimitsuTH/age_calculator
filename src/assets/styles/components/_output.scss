@@ -1,8 +1,12 @@
 .output {
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 800;
     
     span {
         color:$Purple;
+    }
+
+    @media (min-width: $screen-sm){
+        font-size: 5em;
     }
 }
