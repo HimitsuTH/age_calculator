@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import icon_arrow from '../../public/images/icon-arrow.svg';
+
 type Props = {}
 
 const Content = (props: Props) => {
@@ -135,7 +137,7 @@ const Content = (props: Props) => {
                 </div>
                 <div className='btn-container'>
                     <button className='btn' type='submit'>
-                        <img src='../../public/images/icon-arrow.svg' alt="arrow" />
+                        <img src={icon_arrow} alt="arrow" />
                     </button>
                 </div>
 
