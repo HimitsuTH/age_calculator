@@ -38,7 +38,7 @@ label p {
   height: 100%;
   border-radius: 0.2em;
   margin-top: 0.3em;
-  border: 1px solid hsl(0, 0%, 8%);
+  border: 1px solid hsl(0, 1%, 44%);
   outline: none;
   padding: 10px;
   font-size: 20px;
@@ -98,7 +98,7 @@ label p {
 }
 
 .output {
-  font-size: 4em;
+  font-size: 3.5rem;
   font-weight: 800;
 }
 .output span {
