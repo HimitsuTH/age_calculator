@@ -39,7 +39,7 @@ label p {
   border-radius: 0.2em;
   margin-top: 0.3em;
   font-weight: 800;
-  border: 1px solid hsl(0, 1%, 44%);
+  border: 2px solid hsl(0, 0%, 94%);
   outline: none;
   padding: 10px;
   font-size: 20px;
@@ -116,8 +116,8 @@ main {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 2em;
-  margin: 6em 2em;
+  padding: 3em;
+  margin: 8em 2em;
   border-radius: 2rem 2rem 10rem 2rem;
   background-color: hsl(0, 0%, 100%);
 }

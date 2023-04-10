@@ -1,8 +1,8 @@
 main {
   @include flex($align: flex-start, $direction: column);
 //   @include size(100%);
-  padding: 2em;
-  margin: 6em 2em;
+  padding: 3em;
+  margin: 8em 2em;
   border-radius: 2rem 2rem 10rem 2rem;
   background-color: $White;
 

@@ -146,13 +146,13 @@ const Content = (props: Props) => {
 
             <div className='output-container'>
                 <p className='output'>
-                    <span>{outputYear ? outputYear : "--"}</span> years
+                    <span>{outputYear ? outputYear : "- -"}</span> years
                 </p>
                 <p className='output'>
-                    <span>{outputMonth ? outputMonth : "--"}</span> months
+                    <span>{outputMonth ? outputMonth : "- -"}</span> months
                 </p>
                 <p className='output'>
-                    <span>{outputDay ? outputDay : "--"}</span> days
+                    <span>{outputDay ? outputDay : "- -"}</span> days
                 </p>
             </div>
         </section>
