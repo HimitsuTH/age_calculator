@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-import icon_arrow from '../../public/images/icon-arrow.svg';
+import icon_arrow from '/images/icon-arrow.svg';
 
 type Props = {}
 
