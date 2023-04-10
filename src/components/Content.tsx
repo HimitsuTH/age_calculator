@@ -135,7 +135,7 @@ const Content = (props: Props) => {
                 </div>
                 <div className='btn-container'>
                     <button className='btn' type='submit'>
-                        <img src='../../src/assets/images/icon-arrow.svg' alt="arrow" />
+                        <img src='../assets/images/icon-arrow.svg' alt="arrow" />
                     </button>
                 </div>
 
